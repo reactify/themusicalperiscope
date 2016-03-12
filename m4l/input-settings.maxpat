@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x86"
+			"revision" : 10,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 543.0, 165.0, 957.0, 690.0 ],
+		"rect" : [ 159.0, 80.0, 957.0, 690.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -179,7 +179,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 544.0, 290.5, 25.0, 25.0 ]
 				}
 
@@ -333,8 +333,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 366.0, 237.0 ],
@@ -742,8 +742,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 387.0, 386.0 ],
@@ -1759,8 +1759,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 544.0, 381.0, 86.5, 18.0 ],
-					"text" : "scale 0. 1. 0. 1."
+					"patching_rect" : [ 544.0, 381.0, 91.0, 18.0 ],
+					"text" : "scale 0. 1. 0. 1. 1."
 				}
 
 			}
@@ -2262,6 +2262,40 @@
 					"source" : [ "obj-96", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-44" : [ "live.numbox[5]", "live.numbox[4]", 0 ],
+			"obj-29::obj-37::obj-14" : [ "live-path", "live-path", 0 ],
+			"obj-18" : [ "live.numbox[4]", "live.numbox[4]", 0 ],
+			"obj-105" : [ "ListParams", "ListParams", 0 ],
+			"obj-16" : [ "live.numbox[6]", "live.numbox[4]", 0 ],
+			"obj-114" : [ "ListTracks", "ListTracks", 0 ],
+			"obj-106" : [ "ListDevices", "ListDevices", 0 ],
+			"obj-53" : [ "Map", "Map", 0 ],
+			"obj-45" : [ "MapOnce", "MapOnce", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "M4L.api.DeviceParameterRemote.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/abstractions",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.api.SaveLivePath.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/abstractions",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.chooser.js",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/tools",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/tools",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
  ]
 	}
