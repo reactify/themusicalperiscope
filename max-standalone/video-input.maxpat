@@ -1868,6 +1868,34 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 35.0, 170.0, 50.0, 20.0 ],
+									"text" : "del 100"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 35.0, 144.0, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-16",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -2018,7 +2046,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 303.0, 170.0, 74.0, 20.0 ],
+									"patching_rect" : [ 303.0, 170.0, 72.0, 20.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -2253,6 +2281,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2321,6 +2358,15 @@
 									"hidden" : 0,
 									"midpoints" : [ 99.5, 204.5, 99.5, 204.5 ],
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -2422,7 +2468,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1]",
+						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1][1][1][1]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2796,7 +2842,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1]",
+						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1][1][1][1]",
 						"tags" : ""
 					}
 ,
@@ -2980,8 +3026,8 @@
  ],
 		"parameters" : 		{
 			"obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
-			"obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-4::obj-21" : [ "number", "number", 0 ]
+			"obj-4::obj-21" : [ "number", "number", 0 ],
+			"obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
