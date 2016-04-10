@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 214.0, 146.0, 868.0, 650.0 ],
+		"rect" : [ 214.0, 146.0, 818.0, 456.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -212,6 +212,48 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 361.0, 79.0, 32.5, 20.0 ],
+									"text" : "/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 361.0, 52.0, 54.0, 18.0 ],
+									"text" : "1000 $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 361.0, 20.0, 81.0, 20.0 ],
+									"text" : "r analysis-fps"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -458,8 +500,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 210.0, 140.0, 64.0, 19.0 ],
-									"text" : "qmetro 33"
+									"patching_rect" : [ 210.0, 140.0, 69.0, 19.0 ],
+									"text" : "qmetro 100"
 								}
 
 							}
@@ -760,6 +802,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -774,6 +825,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -985,6 +1045,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-60", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -1868,6 +1937,34 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-22",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 182.0, 323.0, 85.0, 18.0 ],
+									"text" : "refreshrate $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 182.0, 295.0, 81.0, 20.0 ],
+									"text" : "r analysis-fps"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-19",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -2031,7 +2128,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 180.0, 295.0, 126.0, 22.0 ],
+									"patching_rect" : [ 182.0, 354.0, 126.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 80.0, 101.0, 16.0 ]
 								}
@@ -2090,8 +2187,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 90.0, 265.0, 226.0, 20.0 ],
-									"text" : "jit.qt.movie 320 240 @vol 0. @adapt 1"
+									"patching_rect" : [ 90.0, 265.0, 287.0, 20.0 ],
+									"text" : "jit.qt.movie 320 240 @vol 0. @adapt 1 @autostart 0"
 								}
 
 							}
@@ -2190,7 +2287,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 325.0, 33.0, 31.0 ],
+									"patching_rect" : [ 122.0, 391.0, 33.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 3.0, 103.0, 94.0 ],
 									"rounded" : 0
@@ -2294,6 +2391,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
 								}
 
 							}
@@ -2468,7 +2583,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1][1][1][1]",
+						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1][1][1][1][1][1]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2842,7 +2957,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1][1][1][1]",
+						"globalpatchername" : "[1][1][1][3][1][1][3][2][1][1][1][1][1][2][2][2][1][1][1][1][1][1][1][1]",
 						"tags" : ""
 					}
 ,
@@ -3025,8 +3140,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
 			"obj-4::obj-21" : [ "number", "number", 0 ],
+			"obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
 			"obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ]
 		}
 ,

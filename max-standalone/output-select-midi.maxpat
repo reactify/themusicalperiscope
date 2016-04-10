@@ -30,6 +30,47 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 200.0, 422.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"live.numbox" : [ 0.0 ],
+						"live.text" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u490003354"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 200.0, 382.0, 91.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 854, 172, 1382, 495 ],
+						"parameter_enable" : 0,
+						"storage_rect" : [ 766, 44, 1220, 302 ]
+					}
+,
+					"text" : "pattrstorage #1",
+					"varname" : "#1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "bpatcher",
 					"name" : "mute-solo.maxpat",
@@ -252,7 +293,7 @@
 					"presentation_rect" : [ 48.0, 62.0, 40.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[49]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 0,
 							"parameter_mmax" : 999.0,
@@ -589,11 +630,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-13" : [ "live.text[1]", "live.text", 0 ],
 			"obj-68::obj-5" : [ "live.text[28]", "live.text", 0 ],
-			"obj-68::obj-6" : [ "live.text[84]", "live.text", 0 ],
-			"obj-13" : [ "live.text[49]", "live.text", 0 ],
+			"obj-21" : [ "live.text[29]", "live.text", 0 ],
 			"obj-68::obj-13" : [ "live.text[83]", "live.text", 0 ],
-			"obj-21" : [ "live.text[29]", "live.text", 0 ]
+			"obj-68::obj-6" : [ "live.text[84]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
