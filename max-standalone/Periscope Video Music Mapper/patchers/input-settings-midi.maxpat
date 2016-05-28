@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 705.0, 65.0, 507.0, 809.0 ],
+		"rect" : [ 1132.0, 595.0, 250.0, 135.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -111,7 +111,7 @@
 					"presentation_rect" : [ 239.0, 21.0, 26.5, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[63]",
 							"parameter_shortname" : "live.text[3]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -180,7 +180,7 @@
 					"patching_rect" : [ 20.0, 151.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.25, 15.0, 103.0, 20.0 ],
-					"text" : "#1",
+					"text" : "HS-Flow-H",
 					"textjustification" : 1
 				}
 
@@ -204,6 +204,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -234,7 +235,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u879005407"
+					"varname" : "u160005726"
 				}
 
 			}
@@ -243,6 +244,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -287,7 +289,7 @@
 					"presentation_rect" : [ 173.0, 127.0, 43.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[7]",
+							"parameter_longname" : "live.numbox[28]",
 							"parameter_shortname" : "live.numbox[4]",
 							"parameter_type" : 1,
 							"parameter_initial_enable" : 1,
@@ -429,7 +431,7 @@
 					"presentation_rect" : [ 119.5, 127.0, 43.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[4]",
+							"parameter_longname" : "live.numbox[29]",
 							"parameter_shortname" : "live.numbox[4]",
 							"parameter_type" : 0,
 							"parameter_mmax" : 10000.0,
@@ -475,7 +477,7 @@
 					"presentation_rect" : [ 76.5, 127.0, 43.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[6]",
+							"parameter_longname" : "live.numbox[30]",
 							"parameter_shortname" : "live.numbox[4]",
 							"parameter_type" : 0,
 							"parameter_mmax" : 10000.0,
@@ -645,7 +647,7 @@
 					"presentation_rect" : [ 25.5, 127.0, 43.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[5]",
+							"parameter_longname" : "live.numbox[31]",
 							"parameter_shortname" : "live.numbox[4]",
 							"parameter_type" : 0,
 							"parameter_initial_enable" : 1,
@@ -1065,25 +1067,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"parameters" : 		{
-			"obj-16" : [ "live.numbox[6]", "live.numbox[4]", 0 ],
-			"obj-68::obj-5" : [ "live.text[28]", "live.text", 0 ],
-			"obj-29" : [ "live.numbox[7]", "live.numbox[4]", 0 ],
-			"obj-68::obj-13" : [ "live.text[83]", "live.text", 0 ],
-			"obj-33" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-68::obj-6" : [ "live.text[84]", "live.text", 0 ],
-			"obj-44" : [ "live.numbox[5]", "live.numbox[4]", 0 ],
-			"obj-18" : [ "live.numbox[4]", "live.numbox[4]", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mute-solo.maxpat",
-				"bootpath" : "/Users/yulilevtov1/workspace/themusicalperiscope/max-standalone",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}

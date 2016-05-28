@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 142.0, 118.0, 746.0, 483.0 ],
+		"rect" : [ 737.0, 295.0, 59.0, 18.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -598,7 +598,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 624.0, 278.0, 25.0, 25.0 ]
 				}
 
@@ -1044,14 +1044,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-5" : [ "live.text[28]", "live.text", 0 ],
-			"obj-6" : [ "live.text[84]", "live.text", 0 ],
-			"obj-13" : [ "live.text[83]", "live.text", 0 ]
-		}
-,
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
