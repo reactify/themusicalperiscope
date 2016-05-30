@@ -1,8 +1,8 @@
 {
 	"name" : "Periscope Video Processor",
 	"version" : 1,
-	"creationdate" : 3547286033,
-	"modificationdate" : 3547377021,
+	"creationdate" : -747681263,
+	"modificationdate" : -747503557,
 	"viewrect" : [ 29.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -28,6 +28,20 @@
 				}
 
 			}
+,
+			"burning-man-nighttime.mp4" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"output1.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
