@@ -2,7 +2,7 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681263,
-	"modificationdate" : -747503557,
+	"modificationdate" : -745619826,
 	"viewrect" : [ 29.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"fluid.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -37,6 +42,19 @@
 			"output1.mov" : 			{
 				"kind" : "moviefile",
 				"local" : 1
+			}
+
+		}
+,
+		"code" : 		{
+			"ab.lumagauss.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Downloads/motion blur pedro",
+					"projectrelativepath" : "../../../../Downloads/motion blur pedro"
+				}
+
 			}
 
 		}
