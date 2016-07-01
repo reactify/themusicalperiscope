@@ -1722,7 +1722,7 @@
 							"parameter_shortname" : "live.numbox[4]",
 							"parameter_type" : 0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 1.0 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_unitstyle" : 1,
 							"parameter_steps" : 10000
 						}
@@ -1759,8 +1759,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 544.0, 381.0, 91.0, 18.0 ],
-					"text" : "scale 0. 1. 0. 1. 1."
+					"patching_rect" : [ 544.0, 381.0, 86.5, 18.0 ],
+					"text" : "scale 0. 1. 0. 1."
 				}
 
 			}
@@ -1793,6 +1793,18 @@
 					"patching_rect" : [ 415.0, 612.0, 168.0, 18.0 ],
 					"text" : "M4L.api.DeviceParameterRemote",
 					"varname" : "M4L.api.DeviceParameterRemote"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6.0, 10.0, 23.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 6.0, 352.0, 169.0 ]
 				}
 
 			}
@@ -2265,15 +2277,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-44" : [ "live.numbox[5]", "live.numbox[4]", 0 ],
 			"obj-29::obj-37::obj-14" : [ "live-path", "live-path", 0 ],
+			"obj-44" : [ "live.numbox[5]", "live.numbox[4]", 0 ],
+			"obj-106" : [ "ListDevices", "ListDevices", 0 ],
 			"obj-18" : [ "live.numbox[4]", "live.numbox[4]", 0 ],
-			"obj-105" : [ "ListParams", "ListParams", 0 ],
 			"obj-16" : [ "live.numbox[6]", "live.numbox[4]", 0 ],
 			"obj-114" : [ "ListTracks", "ListTracks", 0 ],
-			"obj-106" : [ "ListDevices", "ListDevices", 0 ],
-			"obj-53" : [ "Map", "Map", 0 ],
-			"obj-45" : [ "MapOnce", "MapOnce", 0 ]
+			"obj-45" : [ "MapOnce", "MapOnce", 0 ],
+			"obj-105" : [ "ListParams", "ListParams", 0 ],
+			"obj-53" : [ "Map", "Map", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
