@@ -2,7 +2,7 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681263,
-	"modificationdate" : -744718913,
+	"modificationdate" : -744049529,
 	"viewrect" : [ 29.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,7 +22,8 @@
 			}
 ,
 			"fluid.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -64,6 +65,10 @@
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
 
 		}
 
