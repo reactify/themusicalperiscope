@@ -2,7 +2,7 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681263,
-	"modificationdate" : -743766725,
+	"modificationdate" : -743686551,
 	"viewrect" : [ 29.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -63,6 +63,11 @@
 			}
 ,
 			"co.chromakey.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"ab.hsflow.jxs" : 			{
 				"kind" : "shader",
 				"local" : 1
 			}

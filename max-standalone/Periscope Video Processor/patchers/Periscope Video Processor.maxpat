@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 76.0, 187.0, 1290.0, 759.0 ],
+		"rect" : [ 107.0, 191.0, 1290.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 259.0, 352.0, 67.0, 22.0 ],
-					"presentation_rect" : [ 257.0, 354.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "3840 1280"
 				}
@@ -509,7 +508,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2519,7 +2517,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u993004504"
+													"varname" : "u733008634"
 												}
 
 											}
@@ -15866,31 +15864,31 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u478003741" ],
 													"dim" : [ 1, 1 ],
-													"automatic" : [ 0 ],
 													"srcrect" : [ 0, 0, 1, 1 ],
-													"framereport" : [ 0 ],
-													"interp" : [ 0 ],
-													"moviefile" : [ "" ],
-													"time_secs" : [ 0.0 ],
-													"usesrcrect" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"autostart" : [ 1 ],
 													"position" : [ 0.0 ],
-													"drawto" : [ "" ],
-													"vol" : [ 0 ],
-													"unique" : [ 0 ],
 													"texture_name" : [ "u285003739" ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"loopstart" : [ 0 ],
-													"adapt" : [ 1 ],
-													"output_texture" : [ 0 ],
-													"usedstrect" : [ 0 ],
 													"engine" : [ "avf" ],
-													"time" : [ 0 ],
 													"loopreport" : [ 0 ],
+													"framereport" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
 													"colormode" : [ "argb" ],
+													"automatic" : [ 0 ],
+													"autostart" : [ 1 ],
+													"time_secs" : [ 0.0 ],
+													"loopstart" : [ 0 ],
 													"rate" : [ 0.52 ],
+													"vol" : [ 0 ],
+													"drawto" : [ "" ],
+													"unique" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"output_texture" : [ 0 ],
 													"loopend" : [ 0 ],
+													"interp" : [ 0 ],
+													"time" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"usedstrect" : [ 0 ],
+													"adapt" : [ 1 ],
+													"moviefile" : [ "" ],
 													"cache_size" : [ 0.1 ],
 													"fps" : [ 0.0 ],
 													"framecount" : [ 0 ],
@@ -17969,7 +17967,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 689.0, 327.0, 1304.0, 763.0 ],
+						"rect" : [ 613.0, 629.0, 1304.0, 763.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -17996,6 +17994,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-43",
@@ -18501,7 +18500,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_gl_texture" ],
 									"patching_rect" : [ 895.5, 202.54541, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -18514,7 +18513,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 308.0, 116.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -28100,7 +28099,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 38.0, 79.0, 571.0, 422.0 ],
+										"rect" : [ 98.0, 137.0, 571.0, 422.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -28214,7 +28213,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
-													"patching_rect" : [ 81.0, 273.0, 267.0, 34.0 ],
+													"patching_rect" : [ 81.0, 273.0, 270.0, 34.0 ],
 													"style" : "",
 													"text" : "jit.gl.slab periscope @file ab.hsflow.jxs @dimscale 0.25 0.25 @type float32"
 												}
@@ -28230,7 +28229,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
-													"patching_rect" : [ 329.0, 189.0, 173.0, 21.0 ],
+													"patching_rect" : [ 329.0, 189.0, 173.0, 34.0 ],
 													"style" : "",
 													"text" : "jit.gl.slab periscope @type float32"
 												}
@@ -34918,6 +34917,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"data" : 									{
@@ -34930,31 +34930,31 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u258001638" ],
 													"dim" : [ 1, 1 ],
-													"automatic" : [ 0 ],
 													"srcrect" : [ 0, 0, 1, 1 ],
-													"framereport" : [ 0 ],
-													"interp" : [ 0 ],
-													"moviefile" : [ "" ],
-													"time_secs" : [ 0.0 ],
-													"usesrcrect" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"autostart" : [ 1 ],
 													"position" : [ 0.0 ],
-													"drawto" : [ "" ],
-													"vol" : [ 0.0 ],
-													"unique" : [ 0 ],
 													"texture_name" : [ "u894001636" ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"loopstart" : [ 0 ],
-													"adapt" : [ 1 ],
-													"output_texture" : [ 0 ],
-													"usedstrect" : [ 0 ],
 													"engine" : [ "avf" ],
-													"time" : [ 0 ],
 													"loopreport" : [ 0 ],
+													"framereport" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
 													"colormode" : [ "argb" ],
+													"automatic" : [ 0 ],
+													"autostart" : [ 1 ],
+													"time_secs" : [ 0.0 ],
+													"loopstart" : [ 0 ],
 													"rate" : [ 1.0 ],
+													"vol" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"unique" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"output_texture" : [ 0 ],
 													"loopend" : [ 0 ],
+													"interp" : [ 0 ],
+													"time" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"usedstrect" : [ 0 ],
+													"adapt" : [ 1 ],
+													"moviefile" : [ "" ],
 													"cache_size" : [ 0.1 ],
 													"fps" : [ 0.0 ],
 													"framecount" : [ 0 ],
@@ -35135,9 +35135,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 233.0, 192.0, 116.0, 22.0 ],
+									"patching_rect" : [ 233.0, 192.0, 68.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.qt.movie @fps 15"
+									"text" : "jit.qt.movie"
 								}
 
 							}
@@ -35179,31 +35179,31 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u054000448" ],
 													"dim" : [ 1, 1 ],
-													"automatic" : [ 0 ],
 													"srcrect" : [ 0, 0, 1, 1 ],
-													"framereport" : [ 0 ],
-													"interp" : [ 0 ],
-													"moviefile" : [ "" ],
-													"time_secs" : [ 0.0 ],
-													"usesrcrect" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"autostart" : [ 1 ],
 													"position" : [ 0.0 ],
-													"drawto" : [ "" ],
-													"vol" : [ 1.0 ],
-													"unique" : [ 0 ],
 													"texture_name" : [ "u053000446" ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"loopstart" : [ 0 ],
-													"adapt" : [ 1 ],
-													"output_texture" : [ 0 ],
-													"usedstrect" : [ 0 ],
 													"engine" : [ "avf" ],
-													"time" : [ 0 ],
 													"loopreport" : [ 0 ],
+													"framereport" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
 													"colormode" : [ "argb" ],
+													"automatic" : [ 0 ],
+													"autostart" : [ 1 ],
+													"time_secs" : [ 0.0 ],
+													"loopstart" : [ 0 ],
 													"rate" : [ 0.5 ],
+													"vol" : [ 1.0 ],
+													"drawto" : [ "" ],
+													"unique" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"output_texture" : [ 0 ],
 													"loopend" : [ 0 ],
+													"interp" : [ 0 ],
+													"time" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"usedstrect" : [ 0 ],
+													"adapt" : [ 1 ],
+													"moviefile" : [ "" ],
 													"cache_size" : [ 0.1 ],
 													"fps" : [ 0.0 ],
 													"framecount" : [ 0 ],
@@ -35398,31 +35398,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u799000503" ],
 									"dim" : [ 1, 1 ],
-									"automatic" : [ 0 ],
 									"srcrect" : [ 0, 0, 1, 1 ],
-									"framereport" : [ 0 ],
-									"interp" : [ 0 ],
-									"moviefile" : [ "" ],
-									"time_secs" : [ 0.0 ],
-									"usesrcrect" : [ 0 ],
-									"looppoints" : [ 0, 0 ],
-									"autostart" : [ 1 ],
 									"position" : [ 0.0 ],
-									"drawto" : [ "" ],
-									"vol" : [ 0.0 ],
-									"unique" : [ 0 ],
 									"texture_name" : [ "u724000501" ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"loopstart" : [ 0 ],
-									"adapt" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"engine" : [ "avf" ],
-									"time" : [ 0 ],
 									"loopreport" : [ 0 ],
+									"framereport" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
 									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"autostart" : [ 1 ],
+									"time_secs" : [ 0.0 ],
+									"loopstart" : [ 0 ],
 									"rate" : [ 1.0 ],
+									"vol" : [ 0.0 ],
+									"drawto" : [ "" ],
+									"unique" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"output_texture" : [ 0 ],
 									"loopend" : [ 0 ],
+									"interp" : [ 0 ],
+									"time" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
+									"adapt" : [ 1 ],
+									"moviefile" : [ "" ],
 									"cache_size" : [ 0.1 ],
 									"fps" : [ 0.0 ],
 									"framecount" : [ 0 ],
@@ -43436,7 +43436,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 366.0, 300.0, 22.0 ],
 													"style" : "",
-													"text" : "1. -3."
+													"text" : "390. -259."
 												}
 
 											}
@@ -44629,6 +44629,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -46131,15 +46132,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -46384,15 +46376,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -46618,7 +46601,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
+					"destination" : [ "obj-73", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-62", 0 ]
@@ -46690,7 +46673,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-72", 0 ]
@@ -46699,10 +46682,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-74", 0 ]
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}
