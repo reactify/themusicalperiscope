@@ -1,9 +1,9 @@
 {
 	"name" : "Periscope Video Processor",
 	"version" : 1,
-	"creationdate" : -747681263,
-	"modificationdate" : -743686551,
-	"viewrect" : [ 29.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : -747681384,
+	"modificationdate" : 3552217038,
+	"viewrect" : [ 29.0, 70.0, 359.0, 780.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -31,12 +31,7 @@
 		"media" : 		{
 			"temple-of-promise.png" : 			{
 				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop",
-					"projectrelativepath" : "../../../../Desktop"
-				}
-
+				"local" : 1
 			}
 ,
 			"burning-man-nighttime.mp4" : 			{
@@ -54,12 +49,7 @@
 		"code" : 		{
 			"ab.lumagauss.jxs" : 			{
 				"kind" : "shader",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Downloads/motion blur pedro",
-					"projectrelativepath" : "../../../../Downloads/motion blur pedro"
-				}
-
+				"local" : 1
 			}
 ,
 			"co.chromakey.jxs" : 			{
@@ -75,6 +65,49 @@
 		}
 ,
 		"externals" : 		{
+			"jit.gl.spoutsender.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
+					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
+				}
+
+			}
+,
+			"jit.gl.spoutreceiver.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
+					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
+				}
+
+			}
+,
+			"jit.gl.spoutreceiver.mxe" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
+					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
+				}
+
+			}
+,
+			"jit.gl.spoutsender.mxe" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
+					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
+				}
+
+			}
+
+		}
+,
+		"other" : 		{
 
 		}
 
