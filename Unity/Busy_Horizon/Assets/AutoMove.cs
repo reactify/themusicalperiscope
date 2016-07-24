@@ -26,7 +26,7 @@ public class AutoMove : MonoBehaviour {
 		randRadius = Random.Range (radiusMin, radiusMax);
 		randOffset = Random.Range (0f, 360f);
 		frame = transform.Find ("Line04").gameObject;
-		Debug.Log (frame);
+
 		Color RandomColor = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), 1.0f);
 		frame.GetComponent<Renderer> ().material.color = RandomColor;
 		frame.GetComponent<Renderer> ().material.SetColor("_EmmissionColor", RandomColor);
