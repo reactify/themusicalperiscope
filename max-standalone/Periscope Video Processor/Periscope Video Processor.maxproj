@@ -1,8 +1,8 @@
 {
 	"name" : "Periscope Video Processor",
 	"version" : 1,
-	"creationdate" : -747681384,
-	"modificationdate" : 3552217038,
+	"creationdate" : -747681505,
+	"modificationdate" : 3552997999,
 	"viewrect" : [ 29.0, 70.0, 359.0, 780.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -65,49 +65,25 @@
 		}
 ,
 		"externals" : 		{
-			"jit.gl.spoutsender.mxe64" : 			{
-				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
-					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
-				}
-
-			}
-,
 			"jit.gl.spoutreceiver.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
-					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
-				}
-
+				"local" : 1
+			}
+,
+			"jit.gl.spoutsender.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
 			}
 ,
 			"jit.gl.spoutreceiver.mxe" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
-					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
-				}
-
+				"local" : 1
 			}
 ,
 			"jit.gl.spoutsender.mxe" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/Reactify/Downloads/Spout2-master/Spout2-master/MAX/JITTER",
-					"projectrelativepath" : "../../../../../Downloads/Spout2-master/Spout2-master/MAX/JITTER"
-				}
-
+				"local" : 1
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 
