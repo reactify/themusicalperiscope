@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityOSC;
 
 public class FPS_Mousescript : MonoBehaviour {
 
@@ -71,6 +72,9 @@ public class FPS_Mousescript : MonoBehaviour {
 			Camera.main.fieldOfView = Mathf.Clamp (Camera.main.fieldOfView + 1f, 22, 60);
 		}
 		transform.localEulerAngles = new Vector3(rotationY, rotationX, 0);
+
+		OSCHandler.Instance.SendMessageToClient ("Max", "/x", rotationX);
+		OSCHandler.Instance.SendMessageToClient ("Max", "/y", rotationY);
 	}
 
 	void Start ()
@@ -78,6 +82,8 @@ public class FPS_Mousescript : MonoBehaviour {
 		// Make the rigid body not change rotation
 		if (GetComponent<Rigidbody>())
 			GetComponent<Rigidbody>().freezeRotation = true;
+
+		OSCHandler.Instance.Init ();
 	}
 
 }
