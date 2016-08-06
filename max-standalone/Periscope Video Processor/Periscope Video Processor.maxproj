@@ -2,7 +2,7 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681505,
-	"modificationdate" : 3552997999,
+	"modificationdate" : -741613874,
 	"viewrect" : [ 29.0, 70.0, 359.0, 780.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -31,7 +31,12 @@
 		"media" : 		{
 			"temple-of-promise.png" : 			{
 				"kind" : "imagefile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop",
+					"projectrelativepath" : "../../../../Desktop"
+				}
+
 			}
 ,
 			"burning-man-nighttime.mp4" : 			{
@@ -41,6 +46,11 @@
 ,
 			"output1.mov" : 			{
 				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"Periscope-simple.obj" : 			{
+				"kind" : "model",
 				"local" : 1
 			}
 
