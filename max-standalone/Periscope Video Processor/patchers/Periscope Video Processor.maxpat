@@ -6220,7 +6220,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"attr" : "rotatexyz",
@@ -26026,7 +26025,45 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 168.0, 321.0, 51.0, 20.0 ],
+									"presentation_rect" : [ 165.5, 321.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "MIRA"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 524.5, 156.0, 51.0, 20.0 ],
+									"style" : "",
+									"text" : "MIRA"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 192.0, 56.0, 51.0, 20.0 ],
+									"style" : "",
+									"text" : "MIRA"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"attr" : "thresh",
 									"id" : "obj-27",
@@ -29763,7 +29800,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 140.0, 161.0, 276.0, 20.0 ],
+													"patching_rect" : [ 134.0, 58.0, 276.0, 20.0 ],
 													"style" : "",
 													"text" : "color -= mod(fragCoord.y, 2.0) < 1.0 ? 0.5 : 0.0;"
 												}
