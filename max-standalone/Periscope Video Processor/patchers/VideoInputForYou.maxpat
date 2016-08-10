@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 314.0, 256.0, 599.0, 332.0 ],
+		"rect" : [ 314.0, 256.0, 524.0, 313.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 197.0, 13.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -174,9 +174,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 348.5, 246.0, 121.0, 22.0 ],
+					"patching_rect" : [ 348.5, 246.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend servername"
+					"text" : "prepend sendername"
 				}
 
 			}
@@ -201,12 +201,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 279.0, 56.0, 210.0, 22.0 ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 279.0, 56.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "route dim servername appname clear"
+					"text" : "route SpoutSender clear"
 				}
 
 			}
@@ -228,9 +228,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.0, 85.0, 114.0, 22.0 ],
+					"patching_rect" : [ 142.0, 85.0, 117.0, 22.0 ],
 					"style" : "",
-					"text" : "getavailableservers",
+					"text" : "getavailablesenders",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -245,9 +245,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 76.0, 132.0, 157.0, 22.0 ],
+					"patching_rect" : [ 76.0, 132.0, 163.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.syphonclient periscope"
+					"text" : "jit.gl.spoutreceiver periscope"
 				}
 
 			}
@@ -284,7 +284,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-20", 1 ]
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -293,7 +293,7 @@
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-20", 4 ]
+					"source" : [ "obj-20", 1 ]
 				}
 
 			}
@@ -302,7 +302,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 223.5, 161.0, 263.0, 161.0, 263.0, 29.0, 288.5, 29.0 ],
+					"midpoints" : [ 229.5, 161.0, 263.0, 161.0, 263.0, 29.0, 288.5, 29.0 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -368,15 +368,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 1 ]
 				}
 
 			}
