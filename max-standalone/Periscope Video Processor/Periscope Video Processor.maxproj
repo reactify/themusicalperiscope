@@ -2,7 +2,7 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681505,
-	"modificationdate" : -741613874,
+	"modificationdate" : -740787221,
 	"viewrect" : [ 29.0, 70.0, 359.0, 780.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -75,9 +75,19 @@
 		}
 ,
 		"externals" : 		{
-			"jit.gl.spoutreceiver.mxe64" : 			{
+			"oculus.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
+			}
+,
+			"jit.gl.spoutreceiver.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop",
+					"projectrelativepath" : "../../../../Desktop"
+				}
+
 			}
 ,
 			"jit.gl.spoutsender.mxe64" : 			{
