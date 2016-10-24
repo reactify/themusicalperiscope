@@ -2,7 +2,7 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681505,
-	"modificationdate" : -740787221,
+	"modificationdate" : -734786850,
 	"viewrect" : [ 29.0, 70.0, 359.0, 780.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,18 +10,13 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Periscope Video Processor.maxpat" : 			{
+			"Periscope Video Processor-stereoscopic.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
 			"CV-Receiver.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"fluid.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
