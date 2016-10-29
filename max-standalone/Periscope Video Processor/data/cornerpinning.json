@@ -1,0 +1,71 @@
+{
+	"pattrstorage" : 	{
+		"name" : "cornerpinning",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"cornerpin1::lower_left_x" : [ 0.07 ],
+					"cornerpin1::lower_left_y" : [ 0.666666 ],
+					"cornerpin1::lower_right_x" : [ 0.145 ],
+					"cornerpin1::lower_right_y" : [ 0.718518 ],
+					"cornerpin1::upper_left_x" : [ 0.0525 ],
+					"cornerpin1::upper_left_y" : [ 0.477778 ],
+					"cornerpin1::upper_right_x" : [ 0.13 ],
+					"cornerpin1::upper_right_y" : [ 0.383519 ],
+					"cornerpin1[1]::lower_left_x2" : [ 0.145 ],
+					"cornerpin1[1]::lower_left_y2" : [ 0.737037 ],
+					"cornerpin1[1]::lower_right_x2" : [ 0.27125 ],
+					"cornerpin1[1]::lower_right_y2" : [ 0.674074 ],
+					"cornerpin1[1]::upper_left_x2" : [ 0.1375 ],
+					"cornerpin1[1]::upper_left_y2" : [ 0.396296 ],
+					"cornerpin1[1]::upper_right_x2" : [ 0.24125 ],
+					"cornerpin1[1]::upper_right_y2" : [ 0.366667 ],
+					"cornerpin1[2]::lower_left_x3" : [ 0.26625 ],
+					"cornerpin1[2]::lower_left_y3" : [ 0.648148 ],
+					"cornerpin1[2]::lower_right_x3" : [ 0.365 ],
+					"cornerpin1[2]::lower_right_y3" : [ 0.62963 ],
+					"cornerpin1[2]::upper_left_x3" : [ 0.25375 ],
+					"cornerpin1[2]::upper_left_y3" : [ 0.366667 ],
+					"cornerpin1[2]::upper_right_x3" : [ 0.39125 ],
+					"cornerpin1[2]::upper_right_y3" : [ 0.4 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"cornerpin1::lower_left_x" : [ 0.055 ],
+					"cornerpin1::lower_left_y" : [ 0.814814 ],
+					"cornerpin1::lower_right_x" : [ 0.145 ],
+					"cornerpin1::lower_right_y" : [ 0.718518 ],
+					"cornerpin1::upper_left_x" : [ 0.0525 ],
+					"cornerpin1::upper_left_y" : [ 0.477778 ],
+					"cornerpin1::upper_right_x" : [ 0.13 ],
+					"cornerpin1::upper_right_y" : [ 0.383519 ],
+					"cornerpin1[1]::lower_left_x2" : [ 0.145 ],
+					"cornerpin1[1]::lower_left_y2" : [ 0.737037 ],
+					"cornerpin1[1]::lower_right_x2" : [ 0.27125 ],
+					"cornerpin1[1]::lower_right_y2" : [ 0.674074 ],
+					"cornerpin1[1]::upper_left_x2" : [ 0.1375 ],
+					"cornerpin1[1]::upper_left_y2" : [ 0.396296 ],
+					"cornerpin1[1]::upper_right_x2" : [ 0.24125 ],
+					"cornerpin1[1]::upper_right_y2" : [ 0.366667 ],
+					"cornerpin1[2]::lower_left_x3" : [ 0.26625 ],
+					"cornerpin1[2]::lower_left_y3" : [ 0.648148 ],
+					"cornerpin1[2]::lower_right_x3" : [ 0.365 ],
+					"cornerpin1[2]::lower_right_y3" : [ 0.62963 ],
+					"cornerpin1[2]::upper_left_x3" : [ 0.25375 ],
+					"cornerpin1[2]::upper_left_y3" : [ 0.366667 ],
+					"cornerpin1[2]::upper_right_x3" : [ 0.39125 ],
+					"cornerpin1[2]::upper_right_y3" : [ 0.4 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

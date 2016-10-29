@@ -2,7 +2,7 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681505,
-	"modificationdate" : -734786850,
+	"modificationdate" : -734368694,
 	"viewrect" : [ 29.0, 70.0, 359.0, 780.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,6 +18,16 @@
 ,
 			"CV-Receiver.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jit.gl.syphonclient.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"jit.gl.syphonserver.maxhelp" : 			{
+				"kind" : "helpfile",
 				"local" : 1
 			}
 
@@ -69,6 +79,10 @@
 
 		}
 ,
+		"data" : 		{
+
+		}
+,
 		"externals" : 		{
 			"oculus.mxo" : 			{
 				"kind" : "object",
@@ -96,6 +110,16 @@
 			}
 ,
 			"jit.gl.spoutsender.mxe" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.gl.syphonclient.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.gl.syphonserver.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
