@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 611.0, 134.0, 1119.0, 832.0 ],
+		"rect" : [ 129.0, 59.0, 1119.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,58 @@
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 199.0, 31.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 201.0, 2.0, 218.0, 20.0 ],
+					"style" : "",
+					"text" : "^ change the fluid sim resolution here"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 480.0, 632.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 462.983368, 637.5, 150.0, 47.0 ],
+					"style" : "",
+					"text" : "Makes the cornerpin crosshairs appear on the three panels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-18",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 675.0, 361.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-126",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 752.833252, 319.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.333252, 675.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 396.333252, 675.0, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Right"
 				}
@@ -59,7 +104,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 752.833252, 302.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.333252, 658.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 396.333252, 658.0, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Middle"
 				}
@@ -73,7 +118,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 752.833252, 287.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.333252, 642.5, 150.0, 20.0 ],
+					"presentation_rect" : [ 396.333252, 642.5, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Left"
 				}
@@ -87,7 +132,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 752.833252, 272.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.333252, 628.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 396.333252, 628.0, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Off"
 				}
@@ -108,7 +153,7 @@
 					"presentation_rect" : [ 373.25, 628.0, 18.0, 66.0 ],
 					"size" : 4,
 					"style" : "",
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -157,16 +202,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-116",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 549.0, 445.5, 185.0, 48.0 ],
+					"patching_rect" : [ 549.0, 445.5, 185.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 435.833374, 454.5, 185.0, 48.0 ],
+					"presentation_rect" : [ 435.833374, 454.5, 241.416626, 47.0 ],
 					"style" : "",
-					"text" : "Double click these to check which MIDI output is being used. Should be \"loopMIDI Port\""
+					"text" : "Double click these to check which MIDI output is being used. Should be \"loopMIDI Port\" on Windows or \"from Max 1\" on Mac"
 				}
 
 			}
@@ -177,10 +222,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.75, 716.0, 150.0, 48.0 ],
+					"patching_rect" : [ 281.75, 716.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 373.25, 330.0, 150.0, 48.0 ],
+					"presentation_rect" : [ 373.25, 330.0, 150.0, 47.0 ],
 					"style" : "",
 					"text" : "Don't keep any of these debug views running as they kill the FPS"
 				}
@@ -522,7 +567,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -823,7 +868,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -934,7 +979,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -1275,7 +1320,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1023.583252, 409.0, 135.0, 36.0 ],
+					"patching_rect" : [ 1023.583252, 409.0, 135.0, 35.0 ],
 					"style" : "",
 					"text" : "route /gyrosc/Viewfinder/gyro"
 				}
@@ -1304,7 +1349,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -1386,7 +1431,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -1614,7 +1659,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -1697,7 +1742,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -2278,7 +2323,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -2656,7 +2701,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -2906,7 +2951,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -3231,7 +3276,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -3556,7 +3601,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -3881,7 +3926,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -4206,7 +4251,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -5337,7 +5382,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -5406,7 +5451,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -5932,7 +5977,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -6356,7 +6401,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -6481,7 +6526,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -7241,7 +7286,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -7297,7 +7342,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -7419,7 +7464,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -8066,7 +8111,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -8597,7 +8642,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -8787,7 +8832,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -8918,7 +8963,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -9101,7 +9146,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -9184,7 +9229,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -9837,7 +9882,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -11515,7 +11560,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -11585,7 +11630,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -11755,7 +11800,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -12735,7 +12780,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -13215,7 +13260,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -14129,7 +14174,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -14385,7 +14430,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 818.083252, 687.0, 217.0, 36.0 ],
+					"patching_rect" : [ 818.083252, 687.0, 217.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.25, 451.0, 304.0, 22.0 ],
 					"style" : "",
@@ -14402,7 +14447,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.833252, 376.0, 151.0, 34.0 ],
+					"patching_rect" : [ 841.833252, 376.0, 151.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.25, 369.0, 304.0, 20.0 ],
 					"style" : "",
@@ -14434,7 +14479,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 61.25, 57.0, 330.0, 20.0 ],
 					"style" : "",
-					"text" : "SHOWTIME (resizes and correctly positions output window)"
+					"text" : "SHOWTIME (sets correct resolution and window position)"
 				}
 
 			}
@@ -14462,7 +14507,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -14523,7 +14568,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -15386,7 +15431,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -15460,7 +15505,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -15667,12 +15712,12 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
+									"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -16026,7 +16071,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -16837,8 +16882,8 @@
 													"id" : "obj-8",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 165.0, 131.0, 111.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.gl.hap periscope"
@@ -16863,8 +16908,8 @@
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 45.0, 131.0, 111.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.gl.hap periscope"
@@ -17179,7 +17224,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -17712,7 +17757,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -17786,7 +17831,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -18747,7 +18792,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -18969,7 +19014,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -20126,7 +20171,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -20586,7 +20631,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -20866,7 +20911,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -21423,7 +21468,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -21627,7 +21672,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -22141,7 +22186,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -22751,7 +22796,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -22906,7 +22951,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -23052,7 +23097,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -23135,7 +23180,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -23196,7 +23241,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -23395,7 +23440,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -23697,7 +23742,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -23758,7 +23803,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -23957,7 +24002,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -24258,7 +24303,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -24320,7 +24365,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -24381,7 +24426,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -24580,7 +24625,7 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 7,
-																			"minor" : 3,
+																			"minor" : 2,
 																			"revision" : 1,
 																			"architecture" : "x86",
 																			"modernui" : 1
@@ -25034,7 +25079,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -25176,7 +25221,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -25940,7 +25985,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -26238,9 +26283,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 175.583328, 287.0, 80.0, 37.0 ],
+					"patching_rect" : [ 175.583328, 287.0, 80.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 150.5, 83.0, 37.0 ],
+					"presentation_rect" : [ 201.0, 150.5, 83.0, 36.0 ],
 					"style" : ""
 				}
 
@@ -26253,7 +26298,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 20.25, 208.5, 329.666656, 36.0 ],
+					"patching_rect" : [ 20.25, 208.5, 329.666656, 35.0 ],
 					"style" : "",
 					"text" : "jit.world periscope @fps 60 @shared 0 @sync 0 @displaylink 0 @size 640 180 @erase_color 0. 0. 0. 1."
 				}
@@ -26282,7 +26327,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -26323,7 +26368,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 154.0, 208.442383, 150.0, 48.0 ],
+									"patching_rect" : [ 154.0, 208.442383, 150.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 117.0, 65.805542, 377.0, 20.0 ],
 									"style" : "",
@@ -26342,7 +26387,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -26515,7 +26560,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -26636,7 +26681,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -27135,7 +27180,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-106",
-									"items" : [ "Agency FB", ",", "Algerian", ",", "Arial", ",", "Arial Black", ",", "Arial Narrow", ",", "Arial Rounded MT Bold", ",", "Baskerville Old Face", ",", "Bauhaus 93", ",", "Bell MT", ",", "Berlin Sans FB", ",", "Berlin Sans FB Demi", ",", "Bernard MT Condensed", ",", "Blackadder ITC", ",", "Bodoni MT", ",", "Bodoni MT Black", ",", "Bodoni MT Condensed", ",", "Bodoni MT Poster Compressed", ",", "Book Antiqua", ",", "Bookman Old Style", ",", "Bookshelf Symbol 7", ",", "Bradley Hand ITC", ",", "Britannic Bold", ",", "Broadway", ",", "Brush Script MT", ",", "Calibri", ",", "Calibri Light", ",", "Californian FB", ",", "Calisto MT", ",", "Cambria", ",", "Cambria Math", ",", "Candara", ",", "Castellar", ",", "Centaur", ",", "Century", ",", "Century Gothic", ",", "Century Schoolbook", ",", "Chiller", ",", "Colonna MT", ",", "Comic Sans MS", ",", "Consolas", ",", "Constantia", ",", "Cooper Black", ",", "Copperplate Gothic Bold", ",", "Copperplate Gothic Light", ",", "Corbel", ",", "Courier New", ",", "Curlz MT", ",", "Ebrima", ",", "Edwardian Script ITC", ",", "Elephant", ",", "Engravers MT", ",", "Eras Bold ITC", ",", "Eras Demi ITC", ",", "Eras Light ITC", ",", "Eras Medium ITC", ",", "Felix Titling", ",", "Footlight MT Light", ",", "Forte", ",", "Franklin Gothic Book", ",", "Franklin Gothic Demi", ",", "Franklin Gothic Demi Cond", ",", "Franklin Gothic Heavy", ",", "Franklin Gothic Medium", ",", "Franklin Gothic Medium Cond", ",", "Freestyle Script", ",", "French Script MT", ",", "Gabriola", ",", "Gadugi", ",", "Garamond", ",", "Georgia", ",", "Gigi", ",", "Gill Sans MT", ",", "Gill Sans MT Condensed", ",", "Gill Sans MT Ext Condensed Bold", ",", "Gill Sans Ultra Bold", ",", "Gill Sans Ultra Bold Condensed", ",", "Gloucester MT Extra Condensed", ",", "Goudy Old Style", ",", "Goudy Stout", ",", "Haettenschweiler", ",", "Harlow Solid Italic", ",", "Harrington", ",", "High Tower Text", ",", "Impact", ",", "Imprint MT Shadow", ",", "Informal Roman", ",", "Javanese Text", ",", "Jokerman", ",", "Juice ITC", ",", "Kristen ITC", ",", "Kunstler Script", ",", "Lato", ",", "Lato Black", ",", "Lato Hairline", ",", "Lato Heavy", ",", "Lato Light", ",", "Lato Medium", ",", "Lato Semibold", ",", "Lato Thin", ",", "Leelawadee", ",", "Leelawadee UI", ",", "Leelawadee UI Semilight", ",", "Lucida Bright", ",", "Lucida Calligraphy", ",", "Lucida Console", ",", "Lucida Fax", ",", "Lucida Handwriting", ",", "Lucida Sans", ",", "Lucida Sans Typewriter", ",", "Lucida Sans Unicode", ",", "Magneto", ",", "Maiandra GD", ",", "Malgun Gothic", ",", "Malgun Gothic Semilight", ",", "Marlett", ",", "Matura MT Script Capitals", ",", "Microsoft Himalaya", ",", "Microsoft JhengHei", ",", "Microsoft JhengHei Light", ",", "Microsoft JhengHei UI", ",", "Microsoft JhengHei UI Light", ",", "Microsoft New Tai Lue", ",", "Microsoft PhagsPa", ",", "Microsoft Sans Serif", ",", "Microsoft Tai Le", ",", "Microsoft Uighur", ",", "Microsoft YaHei", ",", "Microsoft YaHei Light", ",", "Microsoft YaHei UI", ",", "Microsoft YaHei UI Light", ",", "Microsoft Yi Baiti", ",", "MingLiU-ExtB", ",", "MingLiU_HKSCS-ExtB", ",", "Mistral", ",", "Modern", ",", "Modern No. 20", ",", "Mongolian Baiti", ",", "Monotype Corsiva", ",", "MS Gothic", ",", "MS Outlook", ",", "MS PGothic", ",", "MS Reference Sans Serif", ",", "MS Reference Specialty", ",", "MS UI Gothic", ",", "MT Extra", ",", "MV Boli", ",", "Myanmar Text", ",", "Niagara Engraved", ",", "Niagara Solid", ",", "Nirmala UI", ",", "Nirmala UI Semilight", ",", "NSimSun", ",", "OCR A Extended", ",", "Old English Text MT", ",", "Onyx", ",", "Palace Script MT", ",", "Palatino Linotype", ",", "Papyrus", ",", "Parchment", ",", "Perpetua", ",", "Perpetua Titling MT", ",", "Playbill", ",", "PMingLiU-ExtB", ",", "Poor Richard", ",", "Pristina", ",", "Rage Italic", ",", "Ravie", ",", "Rockwell", ",", "Rockwell Condensed", ",", "Rockwell Extra Bold", ",", "Roman", ",", "Script", ",", "Script MT Bold", ",", "Segoe MDL2 Assets", ",", "Segoe Print", ",", "Segoe Script", ",", "Segoe UI", ",", "Segoe UI Black", ",", "Segoe UI Emoji", ",", "Segoe UI Historic", ",", "Segoe UI Light", ",", "Segoe UI Semibold", ",", "Segoe UI Semilight", ",", "Segoe UI Symbol", ",", "Showcard Gothic", ",", "SimSun", ",", "SimSun-ExtB", ",", "Sitka Banner", ",", "Sitka Display", ",", "Sitka Heading", ",", "Sitka Small", ",", "Sitka Subheading", ",", "Sitka Text", ",", "Snap ITC", ",", "Stencil", ",", "Sylfaen", ",", "Symbol", ",", "Tahoma", ",", "TeamViewer11", ",", "Tempus Sans ITC", ",", "Times New Roman", ",", "Trebuchet MS", ",", "Tw Cen MT", ",", "Tw Cen MT Condensed", ",", "Tw Cen MT Condensed Extra Bold", ",", "Verdana", ",", "Viner Hand ITC", ",", "Vivaldi", ",", "Vladimir Script", ",", "Webdings", ",", "Wide Latin", ",", "Wingdings", ",", "Wingdings 2", ",", "Wingdings 3", ",", "Yu Gothic", ",", "Yu Gothic Light", ",", "Yu Gothic Medium", ",", "Yu Gothic UI", ",", "Yu Gothic UI Light", ",", "Yu Gothic UI Semibold", ",", "Yu Gothic UI Semilight" ],
+									"items" : [ "Apple Braille Outline 6 Dot", ",", "Apple Braille Outline 8 Dot", ",", "Apple Braille Pinpoint 6 Dot", ",", "Apple Braille Pinpoint 8 Dot", ",", "Apple Braille", ",", "Apple Color Emoji", ",", "Apple Symbols", ",", "Apple SD Gothic Neo Bold", ",", "Apple SD Gothic Neo Regular", ",", ".Aqua Kana", ",", "Arial Hebrew", ",", "Arial Hebrew Light", ",", ".Arial Hebrew Desk Interface", ",", ".Arial Hebrew Desk Interface Light", ",", "Arial Hebrew Scholar", ",", "Arial Hebrew Scholar Light", ",", "Avenir Next Condensed Bold", ",", "Avenir Next Condensed Demi Bold", ",", "Avenir Next Condensed Italic", ",", "Avenir Next Condensed Medium", ",", "Avenir Next Condensed Regular", ",", "Avenir Next Condensed Heavy", ",", "Avenir Next Condensed Ultra Light", ",", "Avenir Next Bold", ",", "Avenir Next Demi Bold", ",", "Avenir Next Italic", ",", "Avenir Next Medium", ",", "Avenir Next Regular", ",", "Avenir Next Heavy", ",", "Avenir Next Ultra Light", ",", "Avenir Book", ",", "Avenir Book Oblique", ",", "Avenir Black", ",", "Avenir Black Oblique", ",", "Avenir Heavy", ",", "Avenir Heavy Oblique", ",", "Avenir Light", ",", "Avenir Light Oblique", ",", "Avenir Medium", ",", "Avenir Medium Oblique", ",", "Avenir Oblique", ",", "Avenir Roman", ",", "Courier", ",", "Courier Oblique", ",", "Geeza Pro Regular", ",", "Geeza Pro Bold", ",", ".Geeza Pro Interface Regular", ",", ".Geeza Pro Interface Bold", ",", ".Geeza Pro Interface Light", ",", ".Geeza PUA", ",", "Geneva", ",", ".Helvetica LT MM", ",", "Helvetica", ",", "Helvetica Oblique", ",", "Helvetica Light", ",", "Helvetica Light Oblique", ",", "Helvetica Neue", ",", "Helvetica Neue Condensed Bold", ",", "Helvetica Neue UltraLight", ",", "Helvetica Neue Light", ",", "Helvetica Neue Condensed Black", ",", "Helvetica Neue Medium", ",", "Helvetica Neue Thin", ",", "System Font Regular", ",", "System Font Bold", ",", "System Font Italic", ",", "System Font Medium P4", ",", "System Font Medium Italic P4", ",", "System Font Light", ",", "System Font Thin", ",", "System Font UltraLight", ",", "System Font Heavy", ",", ".Hiragino Kaku Gothic Interface W1", ",", ".Hiragino Kaku Gothic Interface W2", ",", ".Keyboard", ",", "Kohinoor Devanagari Book", ",", "Kohinoor Devanagari Demi", ",", "Kohinoor Devanagari Medium", ",", "Kohinoor Devanagari Bold", ",", "Kohinoor Devanagari Light", ",", "LastResort", ",", "Lucida Grande", ",", ".Lucida Grande UI Regular", ",", ".Lucida Grande UI Bold", ",", "Marker Felt Thin", ",", "Marker Felt Wide", ",", "Menlo Regular", ",", "Menlo Bold", ",", "Menlo Italic", ",", "Monaco", ",", "Noteworthy Light", ",", "Noteworthy Bold", ",", "Optima Regular", ",", "Optima Bold", ",", "Optima Italic", ",", "Optima ExtraBlack", ",", "Palatino", ",", "Heiti TC Light", ",", "Heiti SC Light", ",", "Heiti TC Medium", ",", "Heiti SC Medium", ",", ".HeitiUI TC Thin", ",", ".HeitiUI SC Thin", ",", ".HeitiUI GB18030PUA Thin", ",", ".HeitiUI K Thin", ",", ".HeitiUI J Thin", ",", ".HeitiUI TC Ultra Light", ",", ".HeitiUI SC Ultra Light", ",", ".HeitiUI GB18030PUA Ultra Light", ",", ".HeitiUI K Ultra Light", ",", ".HeitiUI J Ultra Light", ",", "Symbol", ",", "Thonburi", ",", "Thonburi Light", ",", ".Times LT MM", ",", "Times Roman", ",", "Times Bold", ",", "Times Italic", ",", "Zapf Dingbats", ",", "Hiragino Mincho ProN W3", ",", "Hiragino Mincho ProN W6", ",", "Hiragino Kaku Gothic ProN W3", ",", "Hiragino Kaku Gothic ProN W6", ",", "Al Nile", ",", ".Al Nile PUA", ",", "Al Tarikh Regular", ",", ".Al Tarikh PUA", ",", "Al Bayan Plain", ",", ".Al Bayan PUA Plain", ",", "American Typewriter", ",", "American Typewriter Light", ",", "American Typewriter Condensed", ",", "American Typewriter Condensed Light", ",", "Andale Mono", ",", "Apple Chancery", ",", "AppleGothic Regular", ",", "AppleMyungjo Regular", ",", "Apple SD GothicNeo ExtraBold", ",", "Apple SD Gothic Neo Heavy", ",", "Apple SD Gothic Neo Light", ",", "Apple SD Gothic Neo Medium", ",", "Apple SD Gothic Neo SemiBold", ",", "Apple SD Gothic Neo Thin", ",", "Apple SD Gothic Neo UltraLight", ",", "Arial Black", ",", "Arial Narrow", ",", "Arial Rounded MT Bold", ",", "Arial Unicode MS", ",", "Arial", ",", "Athelas Regular", ",", "Athelas Italic", ",", "Athelas Bold", ",", "Ayuthaya", ",", "Baghdad Regular", ",", ".Baghdad PUA", ",", "Bangla MN", ",", "Bangla Sangam MN", ",", "Baoli SC Regular", ",", "Baskerville", ",", "Baskerville SemiBold", ",", "Beirut Regular", ",", ".Beirut PUA", ",", "Big Caslon Medium", ",", "Bodoni 72 Oldstyle Book", ",", "Bodoni 72 Oldstyle Bold", ",", "Bodoni 72 Smallcaps Book", ",", "Bodoni 72 Book", ",", "Bodoni 72 Bold", ",", "Bodoni Ornaments", ",", "Bradley Hand Bold", ",", "Brush Script MT Italic", ",", "Chalkboard", ",", "Chalkboard SE Light", ",", "Chalkboard SE Regular", ",", "Chalkboard SE Bold", ",", "Chalkduster", ",", "Charter Roman", ",", "Charter Italic", ",", "Charter Bold", ",", "Charter Black", ",", "Cochin", ",", "Comic Sans MS", ",", "Copperplate", ",", "Copperplate Light", ",", "Corsiva Hebrew", ",", "Courier New", ",", "Damascus Regular", ",", ".Damascus PUA", ",", "Damascus Light", ",", ".Damascus PUA Light", ",", "Damascus Medium", ",", ".Damascus PUA Medium", ",", "Damascus Bold", ",", "Damascus Semi Bold", ",", ".Damascus PUA Semi Bold", ",", "DecoType Naskh Regular", ",", ".DecoType Naskh PUA", ",", "Devanagari Sangam MN", ",", "Devanagari MT", ",", "Didot", ",", "DIN Alternate Bold", ",", "DIN Condensed Bold", ",", "Diwan Kufi Regular", ",", ".Diwan Kufi PUA", ",", "Diwan Thuluth Regular", ",", "Euphemia UCAS", ",", "Farah Regular", ",", ".Farah PUA", ",", "Farisi Regular", ",", "Futura Medium", ",", "Futura Condensed Medium", ",", "Futura Condensed ExtraBold", ",", "Georgia", ",", "Gill Sans", ",", "Gill Sans UltraBold", ",", "Gill Sans SemiBold", ",", "Gill Sans Light", ",", "Gujarati Sangam MN", ",", "Gujarati MT", ",", "GungSeo Regular", ",", "Gurmukhi MN", ",", "Gurmukhi Sangam MN", ",", "Gurmukhi MT", ",", "Hannotate SC Regular", ",", "Hannotate TC Regular", ",", "Hannotate SC Bold", ",", "Hannotate TC Bold", ",", "HanziPen SC Regular", ",", "HanziPen TC Regular", ",", "HanziPen SC Bold", ",", "HanziPen TC Bold", ",", "HeadLineA Regular", ",", "Herculanum", ",", "Hiragino Sans GB W3", ",", "Hiragino Sans GB W6", ",", "Hoefler Text Ornaments", ",", "Hoefler Text", ",", "Hoefler Text Black", ",", "Impact", ",", "InaiMathi", ",", "Iowan Old Style Black", ",", "Iowan Old Style Bold", ",", "Iowan Old Style Italic", ",", "Iowan Old Style Roman", ",", "Iowan Old Style Titling", ",", "ITF Devanagari Book", ",", "ITF Devanagari Bold", ",", "ITF Devanagari Demi", ",", "ITF Devanagari Light", ",", "ITF Devanagari Medium", ",", "Kailasa Regular", ",", "Kaiti SC Black", ",", "Kaiti SC Bold", ",", "Kaiti TC Bold", ",", "Kaiti SC Regular", ",", "STKaiti", ",", "Kaiti TC Regular", ",", "Kannada MN", ",", "Kannada Sangam MN", ",", "Kefa Regular", ",", "Kefa Bold", ",", "Khmer MN", ",", "Khmer Sangam MN", ",", "Kokonor Regular", ",", "Krungthep", ",", "KufiStandardGK Regular", ",", ".KufiStandardGK PUA", ",", "Lantinghei SC Demibold", ",", "Lantinghei SC Extralight", ",", "Lantinghei SC Heavy", ",", "Lantinghei TC Demibold", ",", "Lantinghei TC Extralight", ",", "Lantinghei TC Heavy", ",", "Lao MN", ",", "Lao Sangam MN", ",", "Libian SC Regular", ",", "Luminari", ",", "Malayalam MN", ",", "Malayalam Sangam MN", ",", "Marion Regular", ",", "Marion Italic", ",", "Marion Bold", ",", "Microsoft Sans Serif", ",", "Mishafi Gold Regular", ",", "Mishafi Regular", ",", "Mshtakan Oblique", ",", "Mshtakan", ",", "Muna Regular", ",", ".Muna PUA", ",", "Muna Bold", ",", "Muna Black", ",", ".Muna PUA Black", ",", "Myanmar MN", ",", "Myanmar Sangam MN", ",", "Nadeem Regular", ",", ".Nadeem PUA", ",", "NanumGothic", ",", "NanumGothic ExtraBold", ",", "NanumMyeongjo", ",", "NanumMyeongjo ExtraBold", ",", "Nanum Brush Script", ",", "Nanum Pen Script", ",", "New Peninim MT", ",", "New Peninim MT Inclined", ",", "New Peninim MT Bold Inclined", ",", "GB18030 Bitmap", ",", "Oriya MN", ",", "Oriya Sangam MN", ",", "Osaka", ",", "Osaka-Mono", ",", "Papyrus Condensed", ",", "Papyrus", ",", "PCMyungjo Regular", ",", "Phosphate Inline", ",", "Phosphate Solid", ",", "PilGi Regular", ",", "Plantagenet Cherokee", ",", "PT Mono", ",", "PT Sans", ",", "PT Sans Narrow", ",", "PT Sans Caption", ",", "PT Serif", ",", "PT Serif Caption", ",", "Raanana", ",", "Sana Regular", ",", ".Sana PUA", ",", "Sathu", ",", "Savoye LET Plain:1.0", ",", "Savoye LET Plain CC.:1.0", ",", "Seravek", ",", "Seravek Medium", ",", "Seravek Light", ",", "Seravek ExtraLight", ",", "Shree Devanagari 714", ",", "SignPainter-HouseScript", ",", "Silom", ",", "Sinhala MN", ",", "Sinhala Sangam MN", ",", "Skia", ",", "Snell Roundhand", ",", "Snell Roundhand Black", ",", "Songti SC Black", ",", "Songti SC Bold", ",", "Songti TC Bold", ",", "Songti SC Light", ",", "STSong", ",", "Songti TC Light", ",", "Songti SC Regular", ",", "Songti TC Regular", ",", "STIXGeneral-Regular", ",", "STIXGeneral-Bold", ",", "STIXGeneral-BoldItalic", ",", "STIXGeneral-Italic", ",", "STIXIntegralsD-Bold", ",", "STIXIntegralsD-Regular", ",", "STIXIntegralsSm-Bold", ",", "STIXIntegralsSm-Regular", ",", "STIXIntegralsUp-Bold", ",", "STIXIntegralsUpD-Bold", ",", "STIXIntegralsUpD-Regular", ",", "STIXIntegralsUp-Regular", ",", "STIXIntegralsUpSm-Bold", ",", "STIXIntegralsUpSm-Regular", ",", "STIXNonUnicode-Regular", ",", "STIXNonUnicode-Bold", ",", "STIXNonUnicode-BoldItalic", ",", "STIXNonUnicode-Italic", ",", "STIXSizeFiveSym-Regular", ",", "STIXSizeFourSym-Bold", ",", "STIXSizeFourSym-Regular", ",", "STIXSizeOneSym-Bold", ",", "STIXSizeOneSym-Regular", ",", "STIXSizeThreeSym-Bold", ",", "STIXSizeThreeSym-Regular", ",", "STIXSizeTwoSym-Bold", ",", "STIXSizeTwoSym-Regular", ",", "STIXVariants-Regular", ",", "STIXVariants-Bold", ",", "Sukhumvit Set Thin", ",", "Sukhumvit Set Light", ",", "Sukhumvit Set Text", ",", "Sukhumvit Set Medium", ",", "Sukhumvit Set Semi Bold", ",", "Sukhumvit Set Bold", ",", "Superclarendon Regular", ",", "Superclarendon Italic", ",", "Superclarendon Light", ",", "Superclarendon Bold", ",", "Superclarendon Black", ",", "Tahoma", ",", "Tamil MN", ",", "Tamil Sangam MN", ",", "Telugu MN", ",", "Telugu Sangam MN", ",", "Times New Roman", ",", "Trattatello", ",", "Trebuchet MS", ",", "Verdana", ",", "Waseem Regular", ",", "Waseem Light", ",", "Wawati SC Regular", ",", "Wawati TC Regular", ",", "Webdings", ",", "Weibei SC Bold", ",", "Weibei TC Bold", ",", "Wingdings 2", ",", "Wingdings 3", ",", "Wingdings", ",", "Xingkai SC Bold", ",", "Xingkai SC Light", ",", "YuGothic Bold", ",", "YuGothic Medium", ",", "YuMincho Demibold", ",", "YuMincho Medium", ",", "Yuanti SC Bold", ",", "Yuanti SC Light", ",", "Yuanti SC Regular", ",", "Yuppy SC Regular", ",", "Yuppy TC Regular", ",", "Zapfino", ",", "Hiragino Maru Gothic Pro W4", ",", "Hiragino Maru Gothic ProN W4", ",", "Hiragino Mincho Pro W3", ",", "Hiragino Mincho Pro W6", ",", "Hiragino Kaku Gothic Pro W3", ",", "Hiragino Kaku Gothic Pro W6", ",", "Hiragino Kaku Gothic Std W8", ",", "Hiragino Kaku Gothic StdN W8", ",", "LiSong Pro", ",", "LiHei Pro", ",", "STFangsong", ",", "STXihei", ",", "STHeiti", ",", "Graduate", ",", "Gotham Bold", ",", "Calibri", ",", "Corbel", ",", "Constantia", ",", "Consolas", ",", "Candara", ",", "Cambria", ",", "TeamViewer11", ",", "Ubuntu Condensed", ",", "Ubuntu Mono", ",", "Ubuntu Medium", ",", "Ubuntu", ",", "Ubuntu Light", ",", "Open Sans Extrabold", ",", "Open Sans Light", ",", "Open Sans", ",", "Open Sans Semibold", ",", "Avenir Next LT Pro Condensed", ",", "Avenir Next LT Pro Demi", ",", "Avenir Next LT Pro Demi Condensed", ",", "Avenir Next LT Pro Heavy Condensed", ",", "Avenir Next LT Pro Medium Condensed", ",", "Avenir Next LT Pro", ",", "Avenir Next LT Pro Ultra Light Condensed", ",", "Avenir LT Std 95 Black", ",", "Avenir LT Std 95 Black Oblique", ",", "Avenir LT Std 45 Book", ",", "Avenir LT Std 45 Book Oblique", ",", "Avenir LT Std 85 Heavy", ",", "Avenir LT Std 85 Heavy Oblique", ",", "Avenir LT Std 35 Light", ",", "Avenir LT Std 35 Light Oblique", ",", "Avenir LT Std 65 Medium", ",", "Avenir LT Std 65 Medium Oblique", ",", "Avenir LT Std 55 Oblique", ",", "Avenir Next LT Pro Bold Condensed", ",", "Avenir LT Std 55 Roman", ",", "Raleway Black", ",", "Raleway ExtraBold", ",", "Raleway ExtraLight", ",", "Raleway Light", ",", "Raleway Medium", ",", "Raleway", ",", "Raleway SemiBold", ",", "Raleway Thin", ",", "Adobe Arabic Bold", ",", "Adobe Arabic Italic", ",", "Adobe Arabic Regular", ",", "Adobe Devanagari", ",", "Adobe Gurmukhi", ",", "Adobe Hebrew Italic", ",", "Adobe Hebrew Regular", ",", "Adobe Ming Std L", ",", "Adobe Myungjo Std M", ",", "Adobe Song Std L", ",", "Kozuka Gothic Pr6N B", ",", "Kozuka Gothic Pr6N EL", ",", "Kozuka Gothic Pr6N H", ",", "Kozuka Gothic Pr6N L", ",", "Kozuka Gothic Pr6N M", ",", "Kozuka Gothic Pr6N R", ",", "Kozuka Mincho Pr6N B", ",", "Kozuka Mincho Pr6N EL", ",", "Kozuka Mincho Pr6N H", ",", "Kozuka Mincho Pr6N L", ",", "Kozuka Mincho Pr6N M", ",", "Kozuka Mincho Pr6N R", ",", "Letter Gothic Std Bold", ",", "Letter Gothic Std Bold Slanted", ",", "Letter Gothic Std Medium", ",", "Minion Pro", ",", "Myriad Pro Bold Condensed", ",", "Myriad Pro Condensed", ",", "Myriad Pro", ",", "Adobe Caslon Pro", ",", "Adobe Caslon Pro Semibold", ",", "Adobe Fangsong Std R", ",", "Adobe Fan Heiti Std B", ",", "Adobe Gothic Std B", ",", "Adobe Heiti Std R", ",", "Adobe Kaiti Std R", ",", "Adobe Naskh Medium", ",", "Adobe Garamond Pro", ",", "Birch Std", ",", "Blackoak Std", ",", "Brush Script Std Medium", ",", "Hobo Std Medium", ",", "Kozuka Gothic Pro B", ",", "Kozuka Gothic Pro EL", ",", "Kozuka Gothic Pro H", ",", "Kozuka Gothic Pro L", ",", "Kozuka Gothic Pro M", ",", "Kozuka Gothic Pro R", ",", "Kozuka Mincho Pro B", ",", "Kozuka Mincho Pro EL", ",", "Kozuka Mincho Pro H", ",", "Kozuka Mincho Pro L", ",", "Kozuka Mincho Pro M", ",", "Kozuka Mincho Pro R", ",", "Lithos Pro Black", ",", "Lithos Pro", ",", "Minion Pro Bold Cond", ",", "Minion Pro Medium", ",", "Minion Pro Semibold", ",", "Myriad Arabic", ",", "Nueva Std Bold", ",", "Nueva Std Bold Condensed", ",", "Nueva Std Condensed", ",", "Nueva Std Italic", ",", "OCR A Std", ",", "Orator Std Medium", ",", "Prestige Elite Std Bold", ",", "Source Sans Pro ExtraLight", ",", "Source Sans Pro Light", ",", "Source Sans Pro", ",", "Source Sans Pro Semibold", ",", "Tekton Pro Bold", ",", "Tekton Pro Bold Condensed", ",", "Tekton Pro Bold Extended", ",", "Tekton Pro Bold Oblique", ",", "Trajan Pro 3", ",", "Adobe Hebrew Bold", ",", "Chaparral Pro Light Italic", ",", "Chaparral Pro", ",", "Charlemagne Std Bold", ",", "Letter Gothic Std Slanted", ",", "Myriad Hebrew", ",", "Myriad Pro Semibold", ",", "Poplar Std Black", ",", "Source Sans Pro Black" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -27313,7 +27358,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -27370,7 +27415,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 159.195313, 94.0, 21.0 ],
+													"patching_rect" : [ 50.0, 159.195312, 94.0, 21.0 ],
 													"style" : "",
 													"text" : "dim $1 $2, bang"
 												}
@@ -27385,7 +27430,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 50.0, 185.195313, 150.0, 21.0 ],
+													"patching_rect" : [ 50.0, 185.195312, 150.0, 21.0 ],
 													"style" : "",
 													"text" : "jit.matrix 4 float32 320 240"
 												}
@@ -27398,7 +27443,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 264.195313, 25.0, 25.0 ],
+													"patching_rect" : [ 50.0, 264.195312, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -27477,7 +27522,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -27690,7 +27735,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -28096,7 +28141,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -28294,7 +28339,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -28748,7 +28793,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -28795,7 +28840,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -29097,7 +29142,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -29586,7 +29631,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -29703,7 +29748,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.5, 154.195313, 94.0, 21.0 ],
+													"patching_rect" : [ 69.5, 154.195312, 94.0, 21.0 ],
 													"style" : "",
 													"text" : "dim $1 $2, bang"
 												}
@@ -29718,7 +29763,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 69.5, 180.195313, 150.0, 21.0 ],
+													"patching_rect" : [ 69.5, 180.195312, 150.0, 21.0 ],
 													"style" : "",
 													"text" : "jit.matrix 4 float32 322 242"
 												}
@@ -29731,7 +29776,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 69.5, 259.195313, 25.0, 25.0 ],
+													"patching_rect" : [ 69.5, 259.195312, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -29841,7 +29886,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -29958,7 +30003,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 66.5, 152.195313, 94.0, 21.0 ],
+													"patching_rect" : [ 66.5, 152.195312, 94.0, 21.0 ],
 													"style" : "",
 													"text" : "dim $1 $2, bang"
 												}
@@ -30308,7 +30353,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -31050,7 +31095,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -31263,7 +31308,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -31669,7 +31714,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -31745,7 +31790,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -31938,7 +31983,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -32251,7 +32296,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -32444,7 +32489,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -32637,7 +32682,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -32830,7 +32875,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -33023,7 +33068,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -33216,7 +33261,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -33409,7 +33454,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -33602,7 +33647,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -33825,7 +33870,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -34018,7 +34063,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -34345,7 +34390,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -34538,7 +34583,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -34731,7 +34776,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -34924,7 +34969,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -35117,7 +35162,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -35310,7 +35355,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -35503,7 +35548,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -35697,7 +35742,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -35818,7 +35863,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -36473,7 +36518,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -36791,7 +36836,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -37196,7 +37241,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -37630,7 +37675,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -37775,7 +37820,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -37967,7 +38012,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -38200,7 +38245,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -38361,7 +38406,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 225.0, 546.695313, 46.0, 21.0 ],
+									"patching_rect" : [ 225.0, 546.695312, 46.0, 21.0 ],
 									"style" : "",
 									"text" : "t l l l"
 								}
@@ -38398,7 +38443,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -38655,7 +38700,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -39669,7 +39714,7 @@
 									"destination" : [ "obj-24", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 852.0, 513.945313, 897.0, 513.945313 ],
+									"midpoints" : [ 852.0, 513.945312, 897.0, 513.945312 ],
 									"source" : [ "obj-75", 0 ]
 								}
 
@@ -39803,7 +39848,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -39982,7 +40027,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -40735,7 +40780,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -41118,7 +41163,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -41172,7 +41217,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u683002651"
+													"varname" : "u633005332"
 												}
 
 											}
@@ -42192,7 +42237,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -42246,7 +42291,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u876002650"
+													"varname" : "u554005331"
 												}
 
 											}
@@ -43266,7 +43311,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -43322,7 +43367,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u619002649"
+													"varname" : "u237005330"
 												}
 
 											}
@@ -44330,7 +44375,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -44594,7 +44639,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -45500,7 +45545,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -45764,7 +45809,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -46670,7 +46715,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
+											"minor" : 2,
 											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
@@ -46919,7 +46964,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
+															"minor" : 2,
 															"revision" : 1,
 															"architecture" : "x86",
 															"modernui" : 1
@@ -48259,7 +48304,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -48728,7 +48773,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 33.0, 243.0, 79.0, 20.0 ],
 									"style" : "",
 									"text" : "cv.jit.track.draw"
@@ -48742,8 +48787,8 @@
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 33.0, 198.0, 55.0, 20.0 ],
 									"style" : "",
 									"text" : "cv.jit.track"
@@ -48784,8 +48829,8 @@
 									"id" : "obj-23",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 33.0, 85.0, 141.0, 22.0 ],
 									"style" : "",
 									"text" : "cv.jit.resize @size 80 60"
@@ -49226,7 +49271,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -49543,6 +49588,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-119", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-120", 0 ]
@@ -50004,18 +50058,42 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cornerpinning.json",
-				"bootpath" : "~/Documents/GitHub/themusicalperiscope/max-standalone/Periscope Video Processor/data",
+				"name" : "cv.jit.track.draw.maxpat",
+				"bootpath" : "~/Documents/Max 7/Library/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.pass.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.features2track.maxpat",
+				"bootpath" : "~/Documents/Max 7/Library/cv.jit-support/Abstractions",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "oculus.mxe",
-				"type" : "iLaF"
+				"name" : "cornerpinning.json",
+				"bootpath" : "~/workspace/themusicalperiscope/max-standalone/Periscope Video Processor/data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cv.jit.resize.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cv.jit.track.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cv.jit.features.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "oculus.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
