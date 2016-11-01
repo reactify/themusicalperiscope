@@ -7,8 +7,6 @@ Project("{F6167922-A86A-79B8-15E0-2C931881C501}") = "Busy_Horizon", "Assembly-CS
 EndProject
 Project("{F6167922-A86A-79B8-15E0-2C931881C501}") = "Busy_Horizon", "Assembly-CSharp-Editor.csproj", "{12E2CAB8-5487-C443-8C49-63456E623228}"
 EndProject
-Project("{F6167922-A86A-79B8-15E0-2C931881C501}") = "Busy_Horizon", "Assembly-UnityScript-firstpass.unityproj", "{A7E1E999-2C9E-C123-E955-90D76D939E58}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{12E2CAB8-5487-C443-8C49-63456E623228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E2CAB8-5487-C443-8C49-63456E623228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E2CAB8-5487-C443-8C49-63456E623228}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7E1E999-2C9E-C123-E955-90D76D939E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7E1E999-2C9E-C123-E955-90D76D939E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7E1E999-2C9E-C123-E955-90D76D939E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7E1E999-2C9E-C123-E955-90D76D939E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
