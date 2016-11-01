@@ -2,8 +2,8 @@
 	"name" : "Periscope Video Processor",
 	"version" : 1,
 	"creationdate" : -747681505,
-	"modificationdate" : -734368694,
-	"viewrect" : [ 29.0, 70.0, 359.0, 780.0 ],
+	"modificationdate" : -734193689,
+	"viewrect" : [ 749.0, 154.0, 359.0, 780.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -39,24 +39,39 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Desktop",
-					"projectrelativepath" : "../../../../Desktop"
+					"projectrelativepath" : "../../../../../Desktop"
 				}
 
 			}
 ,
 			"burning-man-nighttime.mp4" : 			{
 				"kind" : "moviefile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop",
+					"projectrelativepath" : "../../../../../Desktop"
+				}
+
 			}
 ,
 			"output1.mov" : 			{
 				"kind" : "moviefile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop",
+					"projectrelativepath" : "../../../../../Desktop"
+				}
+
 			}
 ,
 			"Periscope-simple.obj" : 			{
 				"kind" : "model",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop",
+					"projectrelativepath" : "../../../../../Desktop"
+				}
+
 			}
 
 		}
@@ -84,6 +99,21 @@
 		}
 ,
 		"externals" : 		{
+			"jit.gl.syphonclient.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"oculus.mxe" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.gl.syphonserver.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
 			"oculus.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
@@ -94,7 +124,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Desktop",
-					"projectrelativepath" : "../../../../Desktop"
+					"projectrelativepath" : "../../../../../Desktop"
 				}
 
 			}
@@ -110,16 +140,6 @@
 			}
 ,
 			"jit.gl.spoutsender.mxe" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"jit.gl.syphonclient.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"jit.gl.syphonserver.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
