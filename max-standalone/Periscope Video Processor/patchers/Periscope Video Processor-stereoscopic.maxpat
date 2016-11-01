@@ -11,7 +11,7 @@
 ,
 		"rect" : [ 611.0, 134.0, 1119.0, 832.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -161,10 +161,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 549.0, 445.5, 183.0, 48.0 ],
+					"patching_rect" : [ 549.0, 445.5, 185.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 435.833374, 454.5, 183.0, 48.0 ],
+					"presentation_rect" : [ 435.833374, 454.5, 185.0, 48.0 ],
 					"style" : "",
 					"text" : "Double click these to check which MIDI output is being used. Should be \"loopMIDI Port\""
 				}
@@ -383,7 +383,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 181.0, 468.5, 34.0, 22.0 ],
-					"presentation_rect" : [ 366.25, 460.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -14428,11 +14427,10 @@
 				"box" : 				{
 					"bgcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"id" : "obj-51",
-					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.5, 24.0, 91.0, 75.0 ],
+					"patching_rect" : [ 218.5, 24.0, 334.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 61.25, 57.0, 330.0, 20.0 ],
 					"style" : "",
@@ -25901,7 +25899,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 192.5, 95.0, 115.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.25, 147.0, 135.5, 44.0 ],
+					"presentation_rect" : [ 35.25, 147.0, 136.0, 44.0 ],
 					"style" : ""
 				}
 
@@ -41174,7 +41172,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u281002821"
+													"varname" : "u683002651"
 												}
 
 											}
@@ -42248,7 +42246,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u087002820"
+													"varname" : "u876002650"
 												}
 
 											}
@@ -43324,7 +43322,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u424002819"
+													"varname" : "u619002649"
 												}
 
 											}
